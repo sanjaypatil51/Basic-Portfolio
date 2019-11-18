@@ -3,9 +3,22 @@ body{
     width:960px;
     background:  transparent url(../../assets/images/herringbone.png);
     background-repeat: repeat-x repeat-y;
+    display: flex;
+    flex-direction:column;
     
     
 }
+
+html,body{
+    height:100%;
+    
+}
+
+.content{
+    flex: 1 0 auto;    
+
+}
+
 .header{
     background:#ffffff;
     border-color: #cccccc;
@@ -111,3 +124,17 @@ textarea{
     border:5px solid gray;
     margin:0;
 }
+button{
+    background:#4aaaa5;
+    color:white;
+    font-size: 20px;
+}
+.footer{
+    
+    flex-shrink:0;
+    height:50px;
+    border: 8px solid #4aaaa5;
+    background: darkgrey;
+    
+}
+
