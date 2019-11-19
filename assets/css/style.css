@@ -49,6 +49,13 @@ li{
     
     
 }
+a:hover{
+    color:red;
+}
+a:active{
+    font-size:125%
+}
+
 
 #index-img {
     float:left;
@@ -128,6 +135,13 @@ button{
     background:#4aaaa5;
     color:white;
     font-size: 20px;
+}
+button:hover{
+    color:red;
+
+}
+button:active{
+    font-size:150%
 }
 .footer{
     
