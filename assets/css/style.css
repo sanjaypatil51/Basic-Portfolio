@@ -59,7 +59,7 @@ ul{
 li{
     float:left;
     padding:14px 16px;
-    border-right: 1px solid gray;
+    border-right: 1px dashed gray;
 }
 li:last-child{
     border-right: none;
